@@ -48,7 +48,7 @@
         }
       }
 
-      input {
+      input,textarea {
         width: calc(100% - 20px);
         height: 100%;
         padding: 8px;
@@ -109,7 +109,7 @@
     .item {
       font-size: 18px;
 
-      input {
+      input,textarea {
         font-size: 14px;
       }
     }
@@ -127,7 +127,7 @@
     .item {
       font-size: 16px;
 
-      input {
+      input,textarea {
         font-size: 12px;
       }
     }
@@ -149,7 +149,7 @@
     .item {
       font-size: 16px;
 
-      input {
+      input,textarea {
         font-size: 12px;
       }
     }

@@ -216,10 +216,9 @@ const Contact = () => {
               />
             </div>
             <div className="item">
-              <input
+            <textarea
                 style={{ height: "80px" }}
                 placeholder="Hi I am the H...."
-                type="text"
                 value={sender.desc}
                 onChange={(e) => setSender({ ...sender, desc: e.target.value })}
               />
