@@ -34,7 +34,8 @@ const Home = () => {
               <LinkedInIcon className="icon" />
             </a>
             <a
-              href="https://drive.google.com/file/d/17kp1Y951bXbkeEfJEMXQzphwbVIgXGqe/view"
+              // href="https://drive.google.com/file/d/17kp1Y951bXbkeEfJEMXQzphwbVIgXGqe/view"
+              href="https://drive.google.com/file/d/1lAzfYh4FkioDGtArVhsmjyzKWYYWZbgm/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
