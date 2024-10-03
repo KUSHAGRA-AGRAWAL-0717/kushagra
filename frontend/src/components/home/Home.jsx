@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home">
         <div className="first">
           <div className="ph">
-            <div className="photo"></div>
+            <div className="photo" style={{cursor: 'pointer'}}></div>
           </div>
           <div className="icons">
             <a

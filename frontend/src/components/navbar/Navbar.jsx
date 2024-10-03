@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="container">
       <Link to="home" smooth={true} duration={500} style={{ textDecoration: "none" }}>
-        <div className="search">
+        <div className="search" style={{cursor: 'pointer'}}>
           <p>KUSHAGRA</p>
           <p>AGRAWAL</p>
         </div>
@@ -26,16 +26,16 @@ const Navbar = () => {
 
       <div className={`second ${isMenuOpen ? "open" : ""}`}>
         <Link to="home" smooth={true} duration={500} style={{ textDecoration: "none" }}>
-          <div className="item">Home</div>
+          <div className="item" style={{cursor: 'pointer'}}>Home</div>
         </Link>
         <Link to="about" smooth={true} duration={500} style={{ textDecoration: "none" }}>
-          <div className="item">About</div>
+          <div className="item" style={{cursor: 'pointer'}}>About</div>
         </Link>
         <Link to="projects" smooth={true} duration={500} style={{ textDecoration: "none" }}>
-          <div className="item">Projects</div>
+          <div className="item" style={{cursor: 'pointer'}}>Projects</div>
         </Link>
         <Link to="contact" smooth={true} duration={500} style={{ textDecoration: "none" }}>
-          <div className="item">Contact</div>
+          <div className="item" style={{cursor: 'pointer'}}>Contact</div>
         </Link>
       </div>
     </div>
